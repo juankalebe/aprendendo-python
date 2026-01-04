@@ -12,6 +12,6 @@ while control != 0:
         lista.append(control)        
         i+=1
 
-lista.sort()
+#lista.sort()
 print(lista)
-print(f"Foram adicionados {i} elementos. O menor elemento foi o {lista[0]} e o maior foi o {lista[i-1]}")
+print(f"Foram adicionados {i} elementos. O menor elemento foi o {min(lista)} e o maior foi o {max(lista)}")
